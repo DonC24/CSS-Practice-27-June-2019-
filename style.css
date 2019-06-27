@@ -1,0 +1,54 @@
+.column{
+  display:inline-block;
+  width:33%;
+  background-color:pink;
+  box-sizing:border-box;
+  float:left;
+/*  padding:50px;*/
+}
+
+.col-child{
+    margin:20px;
+    background-color: green;
+    position:relative; /*To use with imgdiv position*/
+}
+
+.div-header{
+  display:inline-block;
+  width:100%;
+  background-color:blue;
+  box-sizing:border-box;
+  float:left;
+  padding:10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.column-container:after{
+  display: table;
+  clear: both;
+  content: '';
+}
+
+.imgdiv{
+    /*to have smilely emoji on top right of the card using position. In both cases (using position or float, imgdiv must be a child of the div you want to position it in. When using postion, imgdiv can be placed at the bottom of the col-child div, and still moved to the top right corner. However, when using float, top get the imgdiv to the top right, imgdiv must be placed at the top of col-child div*/
+    /*position: absolute;
+    top: 0;
+    right: 0;*/
+    float:right;
+}
+
+.smile {
+    height: 50px;
+    width: 50px;
+
+}
+
+
+
+footer {
+    background-color: orange;
+    padding: 10px;
+    text-align:  center;
+    margin-top: 20px;
+}
