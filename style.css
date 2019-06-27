@@ -31,7 +31,7 @@
 }
 
 .imgdiv{
-    /*to have smilely emoji on top right of the card using position. In both cases (using position or float, imgdiv must be a child of the div you want to position it in. When using postion, imgdiv can be placed at the bottom of the col-child div, and still moved to the top right corner. However, when using float, top get the imgdiv to the top right, imgdiv must be placed at the top of col-child div*/
+    /*to have smilely emoji on top right of the card using position. In both cases (using position or float), imgdiv must be a child of the div you want to position it in. When using postion, imgdiv can be placed at the bottom of the col-child div, and still moved to the top right corner. However, when using float, top get the imgdiv to the top right, imgdiv must be placed at the top of col-child div*/
     /*position: absolute;
     top: 0;
     right: 0;*/
